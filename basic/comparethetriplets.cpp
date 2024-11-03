@@ -10,7 +10,6 @@ for (int i = 0; i<3 ; i++){
     else if (a[i]>b[i]){
         alice++;
     }
-    else;
 }
 result.push_back(alice);
 result.push_back(bob);
