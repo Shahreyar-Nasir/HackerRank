@@ -1,0 +1,14 @@
+long repeatedString(string s, long n) {
+    long count =0;
+    
+    for(char i: s){
+        if(i=='a') count++;
+    }
+    long full = n/s.size();
+    long rem = n % s.size();
+    count =count*full;
+    for(int i =0 ; i<rem; i++){
+        if(s[i] == 'a') count++;
+    }
+    return count;
+}
